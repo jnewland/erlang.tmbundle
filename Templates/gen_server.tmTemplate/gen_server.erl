@@ -1,11 +1,9 @@
 %%%-------------------------------------------------------------------
-%%% @author John Doe <john@example.com>
-%%% @copyright (C) 2011, John Doe
 %%% @doc
 %%%
 %%% @end
 %%%-------------------------------------------------------------------
--module(aaa).
+-module(${TM_NEW_FILE_BASENAME}).
 
 -behaviour(gen_server).
 

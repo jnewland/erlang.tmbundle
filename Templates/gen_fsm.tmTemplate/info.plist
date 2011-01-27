@@ -7,15 +7,15 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y-%m-%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; gen_server.erl &gt; "$TM_NEW_FILE"
+      &lt; gen_fsm.erl &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
 	<string>txt</string>
 	<key>name</key>
-	<string>gen_server</string>
+	<string>gen_fsm</string>
 	<key>scope</key>
 	<string>text.erl</string>
 	<key>uuid</key>
-	<string>170FD774-B125-4042-ABAC-D81C92AB6BEF</string>
+	<string>9A04A2C2-6506-4378-A686-A915306D389B</string>
 </dict>
 </plist>
